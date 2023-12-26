@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom,
+    lightblue, lightpink, lightblue);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 3px 3px 10px -4px black;
+    width: 70%;
+}
+.heading{
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-shadow: 2px 5px 5px rgb(91, 85, 85);
+    color: rgb(2, 74, 50);
+    font-family: Algerian;
+}
+.btn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 5px;
+    width: 200px;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: rgba(255,255,255,.6);
+    box-shadow: 3px 3px 6px -3px black;
+    width: 220px;
+    transition: all 500ms ease;
+}
+.quote{
+    font-size: 25px;
+    margin: 40px;
+}
